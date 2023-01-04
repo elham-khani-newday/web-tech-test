@@ -29,3 +29,9 @@ Run unit tests:
 npx nx test api --watch
 npx nx test ui --watch
 ```
+
+Run Cypress tests:
+
+```shell
+npx nx e2e ui-e2e
+```
