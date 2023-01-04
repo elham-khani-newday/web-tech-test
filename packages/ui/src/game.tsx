@@ -54,6 +54,7 @@ export const Game = () => {
             justifyContent="center"
             alignItems="center"
           >
+            <Grid item>Rock Paper Scissors</Grid>
             <Grid container direction="row" justifyContent="space-between">
               <Player id="one" />
               <Player id="two" />

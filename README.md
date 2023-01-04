@@ -15,10 +15,17 @@ npm i
 Spin up `api` (an Express.js app) and `ui` (a React.js app):
 
 ```shell
-npm run serve:api
-npm run serve:ui
+npx nx serve api
+npx nx serve ui
 ```
 
 Open `ui` in browser http://localhost:4200/
 
 Change code and see changes in browser.
+
+Run unit tests:
+
+```shell
+npx nx test api --watch
+npx nx test ui --watch
+```

@@ -1,17 +1,11 @@
 import { render } from '@testing-library/react';
 
-import App from './app';
+import { Game } from './game';
 
-describe('App', () => {
-  it('should render successfully', () => {
-    const { baseElement } = render(<App />);
+describe('game', () => {
+  it('renders title', () => {
+    const { getByText } = render(<Game />);
 
-    expect(baseElement).toBeTruthy();
-  });
-
-  it('should have a greeting as the title', () => {
-    const { getByText } = render(<App />);
-
-    expect(getByText(/Welcome ui/gi)).toBeTruthy();
+    expect(getByText('Rock Paper Scissors')).toBeTruthy();
   });
 });
