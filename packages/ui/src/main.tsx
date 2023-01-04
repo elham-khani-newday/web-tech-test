@@ -7,7 +7,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
-import App from './app/app';
+import { Game } from './game';
 import { createTheme, ThemeProvider } from '@mui/material';
 
 const theme = createTheme();
@@ -20,7 +20,7 @@ root.render(
   <StrictMode>
     <CssBaseline />
     <ThemeProvider theme={theme}>
-      <App />
+      <Game />
     </ThemeProvider>
   </StrictMode>
 );
