@@ -61,3 +61,5 @@ npx nx e2e ui-e2e
 ```
 
 [rps]:https://en.wikipedia.org/wiki/Rock_paper_scissors
+
+Documened using Swimm
